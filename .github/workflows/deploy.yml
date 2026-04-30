@@ -15,7 +15,7 @@ jobs:
       server_ip: ${{ steps.get_ip.outputs.server_ip }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
